@@ -1,0 +1,16 @@
+{
+  "type": "mongodb",
+  "url": "mongodb+srv://tung-102:n9KLHpwUzFXYVJoC@cluster0-p8fkg.gcp.mongodb.net/graphql-ts-server?retryWrites=true&w=majority",
+  "useNewUrlParser": true,
+  "synchronize": true,
+  "logging": true,
+  "useUnifiedTopology": true,
+  "entities": ["src/entity/**/*.ts"],
+  "migrations": ["src/migration/**/*.ts"],
+  "subscribers": ["src/subscriber/**/*.ts"],
+  "cli": {
+    "entitiesDir": "src/entity",
+    "migrationsDir": "src/migration",
+    "subscribersDir": "src/subscriber"
+  }
+}
